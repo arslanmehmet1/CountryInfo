@@ -66,7 +66,6 @@ const fetchCountryByName = (name) => {
       </ul>
       <div class="card-body">
         <a href="${googleMaps}" target="_blank" class="card-link">Location on Map</a>
-        <a href="#" class="card-link">Another link</a>
       </div>
     </div>`;
     }
