@@ -25,7 +25,7 @@ const selectOptionInput = (d) => {
   });
 };
 
-options.addEventListener("click", () => {
+options.addEventListener("change", () => {
   console.log(options.value);
   fetchCountryByName(options.value);
 });
